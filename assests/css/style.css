@@ -1,0 +1,53 @@
+
+header{
+    width: 100%;
+    background-color: gray;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+    padding: 15px;
+}
+
+.headerContent{
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.myName{
+    float: left;
+    padding: 20px 35px;
+    background-color: blue;
+}
+
+.page{
+    float: right;
+    padding: 20px;
+}
+
+.mainContent{
+    width: 960px;
+    margin: auto;
+}
+
+.mainContent img{
+    width: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.para2{
+    clear: both;
+}
+
+.para3{
+    clear: both;
+}
