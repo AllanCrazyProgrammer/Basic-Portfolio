@@ -1,40 +1,25 @@
-
-header{
-    width: 100%;
-    background-color: gray;
+body,html{
+    margin: 0;
 }
 
-footer{
+@font-face {
+    font-family: 'bladeRunner';
+    src: url('/assests/fonts/bladrmf.ttf')
+}
+
+
+
+.limit-width{
     width: 100%;
     margin: auto;
     text-align: center;
-    background-color: gray;
-    padding: 15px;
 }
 
-.headerContent{
-    width: 960px;
-    margin: auto;
-    overflow: hidden;
+.main-header{
+    background-color: #2b2d31;
 }
 
-.myName{
-    float: left;
-    padding: 20px 35px;
-    background-color: blue;
-}
-
-.page{
-    float: right;
-    padding: 20px;
-}
-
-.mainContent{
-    width: 960px;
-    margin: auto;
-}
-
-.mainContent img{
+.main-content img{
     width: 150px;
     border-radius: 50%;
     float: left;
@@ -44,10 +29,57 @@ footer{
 
 
 
-.para2{
+.my-name{
+    float: left;
+    padding: 20px 35px;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+}
+    .my-name h1{
+        color: #ffdd00;
+        font-family: 'bladeRunner';
+    }
+
+.nav-bar{
+    margin-top: 50px;
+    text-align: right;
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 5px 20px;
+    margin-left: 10px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.para2,
+.para3{
     clear: both;
 }
 
-.para3{
-    clear: both;
+.main-footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2b2d31;
+}
+
+.footer-content{
+    color: #808080;
+}
+
+
+
+.global-width{
+    width:  1170px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.main-content{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 2px solid black;
 }
