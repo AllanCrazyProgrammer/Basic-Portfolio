@@ -2,13 +2,6 @@ body,html{
     margin: 0;
 }
 
-@font-face {
-    font-family: 'bladeRunner';
-    src: url('/assests/fonts/bladrmf.ttf')
-}
-
-
-
 .limit-width{
     width: 100%;
     margin: auto;
@@ -35,9 +28,10 @@ body,html{
     background-color: #1a1a1a;
     border-radius: 20px;
 }
-    .my-name h1{
+    .orbitron{
         color: #ffdd00;
-        font-family: 'bladeRunner';
+        font-family: 'Orbitron', sans-serif;
+
     }
 
 .nav-bar{
