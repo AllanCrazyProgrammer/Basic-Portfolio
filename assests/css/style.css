@@ -1,4 +1,4 @@
-body,html{
+body,html,h1{
     margin: 0;
 }
 
@@ -16,11 +16,8 @@ body,html{
     width: 150px;
     border-radius: 50%;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 0 25px 25px;
 }
-
-
 
 .my-name{
     float: left;
@@ -28,33 +25,32 @@ body,html{
     background-color: #1a1a1a;
     border-radius: 20px;
 }
-    .orbitron{
-        color: #ffdd00;
-        font-family: 'Orbitron', sans-serif;
-
-    }
 
 .nav-bar{
-    margin-top: 50px;
     text-align: right;
 }
 
-.nav-bar li{
-    display: inline-block;
-    padding: 5px 20px;
-    margin-left: 10px;
-}
+    .nav-bar li{
+        display: inline-block;
+        padding: 5px 20px;
+        margin-left: 10px;
+        background-color: #bf1313;
+        border: 5px solid #1a1a1a;
+        border-radius: 4px;
+    }
 
-.nav-bar a{
-    text-decoration: none;
-}
+        .nav-bar li:hover{
+            border: 5px solid #bf1313;
+            background-color: #2b2d31;;
+        }
 
-.para2,
-.para3{
-    clear: both;
-}
+            .nav-bar li a{
+                text-decoration: none;
+                color: #fff;
+            }
 
 .main-footer{
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #2b2d31;
@@ -67,7 +63,7 @@ body,html{
 
 
 .global-width{
-    width:  1170px;
+    width:  980px;
     margin: auto;
     overflow: hidden;
 }
@@ -75,5 +71,22 @@ body,html{
 .main-content{
     margin-top: 60px;
     margin-bottom: 60px;
-    border: 2px solid black;
+    padding: 5px;
+    border: 1px solid #808080;
+    box-shadow: 5px 10px 8px #808080;
+    font-size: 20px;
+    line-height: 30px;
+}   
+
+    .main-content h1{
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 30px;
+        color: #000;
+    }
+
+.orbitron{
+    color: #ffdd00;
+    font-family: 'Orbitron', sans-serif;
+
 }
