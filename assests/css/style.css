@@ -1,5 +1,6 @@
 body,html,h1{
     margin: 0;
+    background-color: gray;
 }
 
 .limit-width{
@@ -12,11 +13,11 @@ body,html,h1{
     background-color: #2b2d31;
 }
 
-.main-content img{
+.round-img{
     width: 150px;
-    border-radius: 50%;
     float: left;
     margin: 0 25px 25px;
+    border-radius: 4px;
 }
 
 .my-name{
@@ -30,14 +31,29 @@ body,html,h1{
     text-align: right;
 }
 
-    .nav-bar li{
-        display: inline-block;
-        padding: 5px 20px;
-        margin-left: 10px;
-        background-color: #bf1313;
-        border: 5px solid #1a1a1a;
-        border-radius: 4px;
+.orbitron{
+    color: #ffdd00;
+    font-family: 'Orbitron', sans-serif;
+    background-color: inherit;
+}
+
+     .normal-orbitron{
+        font-size: 1em;
+        color: #fff;
+        font-family: 'Orbitron', sans-serif;
+        font-weight: bold;
+
     }
+
+.red-button{
+    font-family: "orbitron";
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: #bf1313;
+    border: 5px solid #1a1a1a;
+    border-radius: 4px;
+}
 
         .nav-bar li:hover{
             border: 5px solid #bf1313;
@@ -60,8 +76,6 @@ body,html,h1{
     color: #808080;
 }
 
-
-
 .global-width{
     width:  980px;
     margin: auto;
@@ -76,17 +90,54 @@ body,html,h1{
     box-shadow: 5px 10px 8px #808080;
     font-size: 20px;
     line-height: 30px;
+    background-color: #000;
+    color: #fff;
 }   
 
     .main-content h1{
         margin-top: 15px;
         margin-left: 15px;
         font-size: 30px;
-        color: #000;
+        color: #ffdd00;
     }
 
-.orbitron{
-    color: #ffdd00;
-    font-family: 'Orbitron', sans-serif;
-
+.para{
+    text-align: justify;
+    margin: 15px;
 }
+
+/*#########CONTACT CSS ###########*/
+form{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.small-input{
+    width: 80%;
+}
+
+.big-input{
+    width: 80%;
+    height: 200px;
+}
+
+/*##########Portfolio CSS############*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;    
+}
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+    background-color: black;
+  }
+
+  .grid-img{
+      height: 200px;
+      width: 400px;
+     
+  }
